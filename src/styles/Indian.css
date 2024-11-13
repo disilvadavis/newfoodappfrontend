@@ -1,0 +1,44 @@
+/* src/styles/indian.css */
+.indian-page {
+    background-color: #fff3e0; /* Light orange background */
+    color: #4e2a84; /* Deep purple color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .indian-page h1 {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    color: #e65100; /* Saffron color from the Indian flag */
+  }
+  
+  .indian-page p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .indian-page .food-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .indian-page .food-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .indian-page .food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .indian-page .food-item h3 {
+    font-size: 1.5rem;
+    color: #ff8f00; /* Deep orange color */
+  }
+  
